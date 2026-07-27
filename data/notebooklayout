@@ -1,0 +1,43 @@
+churn-project/
+│
+├── data/
+│   ├── raw/                      # Original untouched CSV
+│   │   └── Churn_Modelling.csv
+│   └── processed/                # Cleaned/encoded data (created in Week 3)
+│       └── (empty for now)
+│
+├── notebooks/
+│   ├── 01_eda.ipynb               # Your Day 1-2 exploration (convert eda_day1_2.py into cells here)
+│   ├── 02_feature_engineering.ipynb   # Week 3
+│   └── 03_modeling.ipynb              # Week 3
+│
+├── src/                            # Reusable Python code (not notebook-only)
+│   ├── __init__.py
+│   ├── data_loader.py              # load_data(), basic cleaning functions
+│   ├── features.py                 # encoding, feature engineering functions
+│   ├── train.py                    # model training script
+│   └── predict.py                  # loads saved model, returns prediction
+│
+├── models/                         # Saved trained models (Week 3 onward)
+│   └── (empty for now)
+│
+├── outputs/                        # Charts, plots, reports
+│   ├── figures/
+│   │   ├── 01_churn_distribution.png
+│   │   ├── 02_churn_by_category.png
+│   │   ├── 03_numeric_distributions.png
+│   │   └── 04_correlation_heatmap.png
+│   └── eda_insights.md             # Your written 1-page business insight summary
+│
+├── app/                            # Week 4: FastAPI + Streamlit deployment
+│   ├── api.py
+│   ├── streamlit_app.py
+│   └── templates/ (if needed)
+│
+├── tests/                          # Optional but good practice
+│   └── test_features.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .env                            # if you add any API keys/config later (never commit this)
