@@ -7,7 +7,7 @@ churn-project/
 │       └── (empty for now)
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb               # Your Day 1-2 exploration (convert eda_day1_2.py into cells here)
+│   ├── 01_eda.ipynb    [X]           # Your Day 1-2 exploration (convert eda_day1_2.py into cells here)
 │   ├── 02_feature_engineering.ipynb   # Week 3
 │   └── 03_modeling.ipynb              # Week 3
 │
